@@ -1,0 +1,134 @@
+:root {
+  --primary:rgba(56, 42, 232, 0.702);
+  --secondary:rgb(236 41 107 / 70%);    
+    
+    --pane-padding: 5px 42px;
+  }
+  .main1{
+  width:100%;
+  margin:0;
+  font-size: 4.5rem;
+  color: #FFF;
+  display: grid;
+    background: linear-gradient(-225deg, var(--primary) 35%,var(--secondary)100%),
+    url("https://www.spruko.com/demo/eudica/Eudica/assets/images/banners/banner1.jpg") no-repeat center center / cover;
+   
+  
+  }
+
+
+
+img{
+  height: 200px;
+  widtH: 300px;
+}
+.square {
+  height: 200px;
+  widtH: 300px;
+  position: relative;
+  background-image: url("http://placekitten.com/g/300/300");
+}
+.square:before {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 0%;
+  width: 100%;
+  bottom: 0;
+  transition: height 0.5s ease-out;
+  /* background: linear-gradient(to bottom, transparent 0%, black 100%); */
+  background: linear-gradient(-425deg, rgb(236 41 107 / 70%)35%,rgba(56, 42, 232, 0.702) 100%);
+}
+.square:hover:before {
+  height: 100%;
+}
+.card1{
+  
+  width: 300px;
+  border: 1px solid #6987ab;
+}
+.sharebtn{
+ margin-top: -50px;
+ display: flex;
+ flex-direction: row;
+}
+.sharebtn.icon1 {
+  margin: auto;
+}
+.icon1{
+  display: flex;
+  /* justify-content: flex-end; */
+  font-size: 14px;
+  font-weight: 400;
+  align-items: center;
+}
+.icon{
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 46px;
+  width: 25px;
+  height: 25px;
+  align-content: center;
+  text-align: center;
+  font-size: 14px;
+}
+.btn{
+ margin-left: 48%;
+}
+.btn button{
+  background-color: #f84242;
+  border: 0;
+  width: 95px;
+  height: 35px;
+  border-radius: 5px;
+  color: #FFF;
+}
+
+
+.cardh{
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 22pxs;
+  margin: 0;
+}
+.cardp{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  margin: 0;
+}
+.crdico{
+  display: flex;
+  justify-content: space-between;
+  /* text-align: ; */
+}
+.cards2{
+  padding: 5%;
+}
+.btn2{
+  display: flex;
+  justify-content: space-between;
+      padding: 20px 5%;
+
+}
+.btn22{
+  height: 30px;
+background-color: #FFF;
+  border-radius: 5px;
+  /* width: 90px; */
+  color:#6987ab;
+  box-shadow: none;
+  border: 1px solid;
+}
+.btn22:hover{
+  background-color:#E8EBF3;
+}
+.btn23{
+  height: 30px;
+  background-color:#EC296B;
+  border: 0;
+  border-radius: 5px;
+  width: 90px;
+  color: #FFF;
+}
+
+
