@@ -333,3 +333,113 @@ border: 0;
 .card12 {
  padding-top: 15px;
 }
+
+.countdown{
+  height: 230px;
+  font-size: 4.5rem;
+  color: #FFF;
+  display: grid;
+  background:linear-gradient(rgb(19, 48, 95) , rgb(19, 48, 95)),
+  url(/image/banner5.jpg) no-repeat center center / cover;
+
+}
+.down{
+  display: flex;
+   justify-content: center;
+   text-align: center;
+}
+
+.counter-icon{
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 46px;
+  width: 60px;
+  height: 60px;
+  align-content: center;
+  text-align: center;
+  font-size: 14px;
+}
+.counterh{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+}
+.counterh2{
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 39px;
+}
+
+
+
+
+.imgcard{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.square92:before {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 0%;
+  width: 100%;
+  bottom: 0;
+  z-index: 3;
+  transition: height 0.5s ease-out;
+  background: linear-gradient(-225deg, rgba(54, 42, 232, 0.7) 35%, rgba(236, 41, 107, 0.7) 100%) !important;
+}
+.square92:hover:before {
+  height: 100%;
+}
+
+.square92 {
+  position: relative;
+}
+.loc {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
+  color: white;
+  z-index: 4;
+}
+.rating {
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  background-color:#EC296B;
+  color: white;
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 12px;
+  z-index: 4
+  ;
+}
+
+.w-100.sq-92-img {
+  position: relative;
+}
+.square92::after {
+  content: '';
+  height: 100%;
+  width: 100%;
+  background: rgba(28, 45, 72, 0.6);
+  position: absolute;
+  top: 0px;
+
+}
+
+.w-100.sq-92-img {
+  transition: 0.3s ease-in-out;
+  width: 100%;
+  height: 100%;
+}
+.square92:hover .w-100.sq-92-img {
+  transform: scale(1.2);
+}
+.square92 {
+  overflow: hidden;
+  border-radius: 3px;
+}
+
